@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News Feed</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My App - News</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/items.html">Items</a></li>
+        <li><a href="/profile.html">Profile</a></li>
+        <li><a href="/quiz.html">Quiz</a></li>
+        <li><a href="/analytics.html">Analytics</a></li>
+        <li><a href="/news.html">News</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>📰 News Feed</h1>
+    <p id="articleCount">Total articles: 0</p>
+    <input type="text" id="search" placeholder="Search news..." />
+    <select id="source">
+      <option value="all">All Sources</option>
+      <option value="bbc">BBC</option>
+      <option value="guardian">The Guardian</option>
+    </select>
+    <button id="filterButton">Filter/Search</button>
+    <div id="newsList" class="news-scrollable"></div>
+    <div id="loading" style="display: none;">Loading...</div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My App</p>
+  </footer>
+
+  <script src="scripts/news.js"></script>
+</body>
+</html>

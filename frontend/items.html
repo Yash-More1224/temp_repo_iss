@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Items</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My App - Items</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/items.html">Items</a></li>
+        <li><a href="/profile.html">Profile</a></li>
+        <li><a href="/quiz.html">Quiz</a></li>
+        <li><a href="/analytics.html">Analytics</a></li>
+        <li><a href="/news.html">News</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>📦 Items</h1>
+
+    <section id="itemListSection">
+      <h2>Current Items</h2>
+      <ul id="itemsList">
+        <li>Loading items...</li>
+      </ul>
+    </section>
+
+    <section id="addItemSection">
+      <h2>Add New Item</h2>
+      <form id="addItemForm">
+        <input type="text" name="name" placeholder="Item Name" required><br>
+        <input type="text" name="description" placeholder="Item Description"><br>
+        <button type="submit">Add Item</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My App</p>
+  </footer>
+
+  <script src="scripts/items.js"></script>
+</body>
+</html>

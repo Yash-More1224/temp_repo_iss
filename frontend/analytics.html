@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analytics</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My App - Analytics</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/items.html">Items</a></li>
+        <li><a href="/profile.html">Profile</a></li>
+        <li><a href="/quiz.html">Quiz</a></li>
+        <li><a href="/analytics.html">Analytics</a></li>
+        <li><a href="/news.html">News</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>📊 Analytics</h1>
+    <div id="stats">
+      <p>Items: <span id="itemCount">Loading...</span></p>
+      <p>Users: <span id="userCount">Loading...</span></p>
+      <p>Avg Item Name Length: <span id="avgItemName">Loading...</span></p>
+      <p>Avg Username Length: <span id="avgUserName">Loading...</span></p>
+      <p>Max Item Name Length: <span id="maxItemName">Loading...</span></p>
+      <p>Max Username Length: <span id="maxUserName">Loading...</span></p>
+    </div>
+    <img id="plot" src="" alt="Analytics Plot" style="max-width: 100%; display: block; margin-top: 20px;" />
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My App</p>
+  </footer>
+
+  <script src="scripts/analytics.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+motor
+pymongo # BUGFIX: Explicitly add pymongo for bson
+numpy
+matplotlib
+python-jose[cryptography] # For JWT
+passlib[bcrypt] # For password hashing
+python-multipart # For form data (needed for login)
